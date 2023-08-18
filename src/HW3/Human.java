@@ -36,7 +36,7 @@ public class Human {
         if(data[4].length() < 11 && data[4].length() > 8){
             this.phoneNumber = data[4];
         }else{
-            System.out.print("Неверный формат номера телефона.");//////////////////////////////////////////////
+            System.out.print("Неверный формат номера телефона.");
         }
         
         if(data[5].equals("f") && data[5].equals("m")){
